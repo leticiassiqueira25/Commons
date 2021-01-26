@@ -9,13 +9,13 @@ import Foundation
 
 public struct Moeda : Decodable {
     
-    var siglaMoeda: String
-    var name: String?
-    var priceUSD: Double?
-    var volumeHora: Double?
-    var volumeDia: Double?
-    var volumeMes: Double
-    var idIcon: String?
+    public var siglaMoeda: String
+    public var name: String?
+    public var priceUSD: Double?
+    public var volumeHora: Double?
+    public var volumeDia: Double?
+    public var volumeMes: Double
+    public var idIcon: String?
     
     public enum CodingKeys: String, CodingKey{
         case siglaMoeda = "asset_id"
