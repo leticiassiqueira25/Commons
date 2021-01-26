@@ -1,5 +1,5 @@
 PODS:
-  - CommonsService (1.1.0)
+  - CommonsService (1.2.0)
 
 DEPENDENCIES:
   - CommonsService (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CommonsService: c6099017e8dabdaa615edbd168a57bdd62a6fa56
+  CommonsService: 87db8c694dbfdc58162415fd7d320fe9f0c79fee
 
 PODFILE CHECKSUM: ee23547868e79d234474a114d6b6a9c926b9074f
 
