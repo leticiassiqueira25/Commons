@@ -17,6 +17,7 @@
 		8F76BA58A64F6D83F1FFA3B0AA8B8547 /* Pods-CommonsService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B04CC5029D76B53C35135E8C94E05F1 /* Pods-CommonsService_Example-dummy.m */; };
 		937A30CDD4C382862DC398C221BC298D /* CommonsService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C0D43FFE2037E902C82BB6482D01E0 /* CommonsService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E06E214727950A0FC7518CA97E1A8C41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FC46B5F125C1A4D800C1FBD7 /* FormataNumero.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B5F025C1A4D800C1FBD7 /* FormataNumero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +41,12 @@
 		06B5C34A5606025F381F2F84DE965766 /* Moeda.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moeda.swift; path = CommonsService/Classes/Moeda.swift; sourceTree = "<group>"; };
 		0B3981FF85CE6011B14215BD79E18394 /* CommonsService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CommonsService.modulemap; sourceTree = "<group>"; };
 		197BDE7364092B5A117282F2A07EFD88 /* Pods-CommonsService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonsService_Example.modulemap"; sourceTree = "<group>"; };
-		215DEA75880794E96D498D3A8A298DA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		215DEA75880794E96D498D3A8A298DA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3A3A0F751E33CD16F3B9553AFF447CAF /* Pods-CommonsService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonsService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46C0D43FFE2037E902C82BB6482D01E0 /* CommonsService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonsService-umbrella.h"; sourceTree = "<group>"; };
 		5D4D3430C62356731773C69C2AAE4226 /* Pods-CommonsService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonsService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6A2BDDE0D92F6D6C01BE33A3236D5F5A /* CommonsService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CommonsService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6AC7FEE9E70C5F51EBC9360C8CD50A44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6A2BDDE0D92F6D6C01BE33A3236D5F5A /* CommonsService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CommonsService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6AC7FEE9E70C5F51EBC9360C8CD50A44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75902392E43C46435579C7D321FF17E1 /* Pods-CommonsService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonsService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7C9D8014F0462CDE1106B6E335B751FF /* Pods-CommonsService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonsService_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -57,18 +58,19 @@
 		9A1FD31716B31CE5949B8A83336EFD9B /* CommonsService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonsService-dummy.m"; sourceTree = "<group>"; };
 		9B04CC5029D76B53C35135E8C94E05F1 /* Pods-CommonsService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonsService_Example-dummy.m"; sourceTree = "<group>"; };
 		9D0DD0316159B3E64A11563DA3149B3A /* Pods-CommonsService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonsService_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E137C7F4C90AF0C9F6FDC3B99FE4E22 /* CommonsService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonsService-prefix.pch"; sourceTree = "<group>"; };
 		A0E4B11F5BE63768FD1C97ADB2087D43 /* Pods-CommonsService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonsService_Example-Info.plist"; sourceTree = "<group>"; };
 		AF814601A7C43786C77F4D8559AD4389 /* Pods-CommonsService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonsService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B4F3A82FD253C21705A6DF26C08FEC66 /* CommonsService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonsService.framework; path = CommonsService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B72E580160462C225B9420D54258F878 /* Pods_CommonsService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CommonsService_Example.framework; path = "Pods-CommonsService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F3A82FD253C21705A6DF26C08FEC66 /* CommonsService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonsService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72E580160462C225B9420D54258F878 /* Pods_CommonsService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonsService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8ACC82C20C9B0A83785D675066DDCFD /* Pods-CommonsService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonsService_Tests-Info.plist"; sourceTree = "<group>"; };
 		CC4798EF355985D775A4156FC50B6231 /* Pods-CommonsService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonsService_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CF90DF8E64C7BFF8FD981F79DA522003 /* Pods-CommonsService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonsService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D21AB2FE9E7DBBD56241B395AA50F342 /* Pods_CommonsService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CommonsService_Tests.framework; path = "Pods-CommonsService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21AB2FE9E7DBBD56241B395AA50F342 /* Pods_CommonsService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonsService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8394395202B409B8B189E5B3A5856D4 /* CommonsService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CommonsService-Info.plist"; sourceTree = "<group>"; };
 		E5EDC9B969CAB33087EF9E2605C2804E /* Pods-CommonsService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonsService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FC46B5F025C1A4D800C1FBD7 /* FormataNumero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormataNumero.swift; path = CommonsService/Classes/FormataNumero.swift; sourceTree = "<group>"; };
 		FCFC2269E6E073CBE09F4E73EBD77198 /* Pods-CommonsService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonsService_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				06B5C34A5606025F381F2F84DE965766 /* Moeda.swift */,
+				FC46B5F025C1A4D800C1FBD7 /* FormataNumero.swift */,
 				A4887F7A1062DBF4DA6199680C032997 /* Pod */,
 				870E85AC5A0BFBE0A1A7ECA37E3B0E68 /* Support Files */,
 			);
@@ -368,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3850BD371779D0D95129C4A5097225EA /* CommonsService-dummy.m in Sources */,
+				FC46B5F125C1A4D800C1FBD7 /* FormataNumero.swift in Sources */,
 				70BFDB78FD98887C73091CB54A5649B7 /* Moeda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,8 +692,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
