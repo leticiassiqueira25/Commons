@@ -39,3 +39,25 @@ public struct Moeda : Decodable {
     
 }
 
+extension Moeda: CustomStringConvertible {
+    
+    public var description: String {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .decimal
+        formatter.maximumFractionDigits = 2
+        formatter.decimalSeparator = "."
+        formatter.groupingSeparator = ","
+        let number = NSNumber(value: priceUSD ?? 0)
+        let formattedValue = formatter.string(from: number)!
+    
+        return "$\(formattedValue)"
+    }
+    
+    
+//    func formatarNumeros(cotacao: Double) -> String {
+//
+//    }
+    
+    
+}
+
