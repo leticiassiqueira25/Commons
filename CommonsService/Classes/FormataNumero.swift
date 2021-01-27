@@ -8,7 +8,11 @@
 import Foundation
 
 public class FormataNumero {
-
+        
+        public init() {
+            
+        }
+        
         public func formatarCotacao(cotacao: Double) -> String {
             let formatter = NumberFormatter()
             formatter.numberStyle = .decimal
@@ -22,3 +26,4 @@ public class FormataNumero {
         }
     
 }
+
