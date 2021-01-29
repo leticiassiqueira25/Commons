@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Favoritos {
+public struct Favoritos {
     
     public var siglaFavorito: String
     public var favoritos: Array<Any> = []
