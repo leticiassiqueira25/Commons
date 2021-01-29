@@ -7,70 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AB773C7D6C103303E8DADD067826D3D /* Moeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC2422CF76F77B9948CAD198CF6017 /* Moeda.swift */; };
+		0AA64E08CFB075E665AE2990822647CA /* CommonsService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D44DCCB72E4DABBA2FDBA39456FB26 /* CommonsService-dummy.m */; };
 		3D67F5C3222604A4C0101DF15F2D8884 /* Pods-CommonsService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D8014F0462CDE1106B6E335B751FF /* Pods-CommonsService_Tests-dummy.m */; };
 		58E6482DCB1A6C5250D2ED9B33528629 /* Pods-CommonsService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5DEEBC6CF0ECABACE92A75297799C9 /* Pods-CommonsService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6057E124329990BD3822C75C33B4AC7E /* Favoritos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DF881C9EB5F825909221485F60CBF /* Favoritos.swift */; };
 		607AE5FA1883AEFF8ABF497034C5122B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		67BEB54C55117FBCE67B9A2D094EA553 /* Pods-CommonsService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0DD0316159B3E64A11563DA3149B3A /* Pods-CommonsService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F76BA58A64F6D83F1FFA3B0AA8B8547 /* Pods-CommonsService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B04CC5029D76B53C35135E8C94E05F1 /* Pods-CommonsService_Example-dummy.m */; };
-		93A51FA6DA707CF7F5EDFF2675C3D0C1 /* CommonsService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F12670A30905A208214659F52AA703A1 /* CommonsService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		984714D8ED222AD890EA0B46B38EEFBA /* CommonsService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CBC9E7211C2905D647ECAB508A7772 /* CommonsService-dummy.m */; };
-		986C51345564A78BE351B6A390B2842E /* FormataNumero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867383DA5F00239BE6D7DA1138F688C2 /* FormataNumero.swift */; };
+		932D538F32699D566BA2417E9E5F2779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B9A914DBBD15C430EC276D3BEFFB9DB2 /* FormataNumero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C45A28ECA3D10E359800CC9A6A5A4EE /* FormataNumero.swift */; };
+		DD6489DB1E6D08893DF403A65CD13D99 /* CommonsService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C37902CC4F3DF65B0E13EF1B71870BB8 /* CommonsService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E06E214727950A0FC7518CA97E1A8C41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E82B005D40CA219B0B954C2190601751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E6CD1ED3D76835B5E32B321E2A473E0C /* Moeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD942EE8B741B4358AD4195D47D191F2 /* Moeda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		59873949F2B3AC40878AD6C64749C375 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 308D1CEBC73306F91B3E0C4642B83960;
-			remoteInfo = CommonsService;
-		};
-		5C64AC9F815831F0A3110A1F802CA1A9 /* PBXContainerItemProxy */ = {
+		8CDAE1DE950561439BCBF523E669A496 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 14CB6A7717451553D721420F8C52BD3E;
 			remoteInfo = "Pods-CommonsService_Example";
 		};
+		8FDFE40E1CF302942D5CF2FF396F190C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308D1CEBC73306F91B3E0C4642B83960;
+			remoteInfo = CommonsService;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15549F62AD3E33933237B232561B4591 /* CommonsService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CommonsService.modulemap; sourceTree = "<group>"; };
 		197BDE7364092B5A117282F2A07EFD88 /* Pods-CommonsService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonsService_Example.modulemap"; sourceTree = "<group>"; };
-		2CE229F8D62A5F6515A6AD1B86B8FE3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		349D09AE339688F09B164D32646ABAF9 /* CommonsService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonsService.debug.xcconfig; sourceTree = "<group>"; };
-		3946C1176C651FFC2F339BC1FA4F0982 /* CommonsService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CommonsService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3A3A0F751E33CD16F3B9553AFF447CAF /* Pods-CommonsService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonsService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		54CBC9E7211C2905D647ECAB508A7772 /* CommonsService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonsService-dummy.m"; sourceTree = "<group>"; };
+		57CF1E93CE70EE14F22ED0AB03F2472A /* CommonsService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CommonsService-Info.plist"; sourceTree = "<group>"; };
+		59D44DCCB72E4DABBA2FDBA39456FB26 /* CommonsService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonsService-dummy.m"; sourceTree = "<group>"; };
 		5D4D3430C62356731773C69C2AAE4226 /* Pods-CommonsService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonsService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6D1E82FB1A6C362A48409F2C9E19B8B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C45A28ECA3D10E359800CC9A6A5A4EE /* FormataNumero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormataNumero.swift; path = CommonsService/Classes/FormataNumero.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		747DD9E722747B46CE9A66386A0FCEFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		75902392E43C46435579C7D321FF17E1 /* Pods-CommonsService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonsService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7C9D8014F0462CDE1106B6E335B751FF /* Pods-CommonsService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonsService_Tests-dummy.m"; sourceTree = "<group>"; };
-		7CB93BA391D25F7DCD30B48782EBD963 /* CommonsService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CommonsService-Info.plist"; sourceTree = "<group>"; };
 		7E5DEEBC6CF0ECABACE92A75297799C9 /* Pods-CommonsService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonsService_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7FEC2422CF76F77B9948CAD198CF6017 /* Moeda.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moeda.swift; path = CommonsService/Classes/Moeda.swift; sourceTree = "<group>"; };
 		857238CB6BA1094D3DCEDD7257F2FC42 /* Pods-CommonsService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonsService_Example.release.xcconfig"; sourceTree = "<group>"; };
-		867383DA5F00239BE6D7DA1138F688C2 /* FormataNumero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormataNumero.swift; path = CommonsService/Classes/FormataNumero.swift; sourceTree = "<group>"; };
+		88BC171F724F3F5EA9314D57ED955E2D /* CommonsService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonsService.release.xcconfig; sourceTree = "<group>"; };
 		9156368ED7757054CD8501C7DC338A38 /* Pods-CommonsService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonsService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93494C5F02FC458D78BDAA03ECCD3576 /* CommonsService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CommonsService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B04CC5029D76B53C35135E8C94E05F1 /* Pods-CommonsService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonsService_Example-dummy.m"; sourceTree = "<group>"; };
 		9D0DD0316159B3E64A11563DA3149B3A /* Pods-CommonsService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonsService_Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0DAD7F259F020008AF7FEBAD914F987 /* CommonsService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonsService-prefix.pch"; sourceTree = "<group>"; };
 		A0E4B11F5BE63768FD1C97ADB2087D43 /* Pods-CommonsService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonsService_Example-Info.plist"; sourceTree = "<group>"; };
+		A46020F69AC28BD7FD41EC3D7554896A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AD942EE8B741B4358AD4195D47D191F2 /* Moeda.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moeda.swift; path = CommonsService/Classes/Moeda.swift; sourceTree = "<group>"; };
 		AF814601A7C43786C77F4D8559AD4389 /* Pods-CommonsService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonsService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4F3A82FD253C21705A6DF26C08FEC66 /* CommonsService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonsService.framework; path = CommonsService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72E580160462C225B9420D54258F878 /* Pods_CommonsService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CommonsService_Example.framework; path = "Pods-CommonsService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6DF881C9EB5F825909221485F60CBF /* Favoritos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Favoritos.swift; path = CommonsService/Classes/Favoritos.swift; sourceTree = "<group>"; };
+		C37902CC4F3DF65B0E13EF1B71870BB8 /* CommonsService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonsService-umbrella.h"; sourceTree = "<group>"; };
+		C66FCC2E08A7DFC66C37342EAE2948CC /* CommonsService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonsService.debug.xcconfig; sourceTree = "<group>"; };
 		C8ACC82C20C9B0A83785D675066DDCFD /* Pods-CommonsService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonsService_Tests-Info.plist"; sourceTree = "<group>"; };
 		CC4798EF355985D775A4156FC50B6231 /* Pods-CommonsService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonsService_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CF90DF8E64C7BFF8FD981F79DA522003 /* Pods-CommonsService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonsService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D21AB2FE9E7DBBD56241B395AA50F342 /* Pods_CommonsService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CommonsService_Tests.framework; path = "Pods-CommonsService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF5AF251CCBF3859C70B060121AE9822 /* CommonsService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonsService-prefix.pch"; sourceTree = "<group>"; };
 		E5EDC9B969CAB33087EF9E2605C2804E /* Pods-CommonsService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonsService_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E92ED5362130E84C0043260543359D08 /* CommonsService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonsService.release.xcconfig; sourceTree = "<group>"; };
-		F12670A30905A208214659F52AA703A1 /* CommonsService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonsService-umbrella.h"; sourceTree = "<group>"; };
-		F4FF50BE67DEB5DB0D9918BCC56DEEA6 /* CommonsService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CommonsService.modulemap; sourceTree = "<group>"; };
 		FCFC2269E6E073CBE09F4E73EBD77198 /* Pods-CommonsService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonsService_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,11 +85,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B6D3638BAB7B7C0DD23B800DE4DB2B7 /* Frameworks */ = {
+		A4F616F6A4FE97B0421E7DEA5FF4F4D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E82B005D40CA219B0B954C2190601751 /* Foundation.framework in Frameworks */,
+				932D538F32699D566BA2417E9E5F2779 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,16 +104,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A09CB3739E3E58BCA0CF5A81191C72E /* Support Files */ = {
+		2B62EBFE5696D6571DB03B3ECD06C254 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F4FF50BE67DEB5DB0D9918BCC56DEEA6 /* CommonsService.modulemap */,
-				54CBC9E7211C2905D647ECAB508A7772 /* CommonsService-dummy.m */,
-				7CB93BA391D25F7DCD30B48782EBD963 /* CommonsService-Info.plist */,
-				DF5AF251CCBF3859C70B060121AE9822 /* CommonsService-prefix.pch */,
-				F12670A30905A208214659F52AA703A1 /* CommonsService-umbrella.h */,
-				349D09AE339688F09B164D32646ABAF9 /* CommonsService.debug.xcconfig */,
-				E92ED5362130E84C0043260543359D08 /* CommonsService.release.xcconfig */,
+				15549F62AD3E33933237B232561B4591 /* CommonsService.modulemap */,
+				59D44DCCB72E4DABBA2FDBA39456FB26 /* CommonsService-dummy.m */,
+				57CF1E93CE70EE14F22ED0AB03F2472A /* CommonsService-Info.plist */,
+				A0DAD7F259F020008AF7FEBAD914F987 /* CommonsService-prefix.pch */,
+				C37902CC4F3DF65B0E13EF1B71870BB8 /* CommonsService-umbrella.h */,
+				C66FCC2E08A7DFC66C37342EAE2948CC /* CommonsService.debug.xcconfig */,
+				88BC171F724F3F5EA9314D57ED955E2D /* CommonsService.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CommonsService";
@@ -141,16 +143,14 @@
 			path = "Target Support Files/Pods-CommonsService_Tests";
 			sourceTree = "<group>";
 		};
-		A1BF27023EB3D6F6DBFBEF80167ABBF7 /* CommonsService */ = {
+		A69727AAEF563116FC4691BB98638DC8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				867383DA5F00239BE6D7DA1138F688C2 /* FormataNumero.swift */,
-				7FEC2422CF76F77B9948CAD198CF6017 /* Moeda.swift */,
-				C7CAA709292C0423498187879D378F4E /* Pod */,
-				0A09CB3739E3E58BCA0CF5A81191C72E /* Support Files */,
+				93494C5F02FC458D78BDAA03ECCD3576 /* CommonsService.podspec */,
+				A46020F69AC28BD7FD41EC3D7554896A /* LICENSE */,
+				747DD9E722747B46CE9A66386A0FCEFB /* README.md */,
 			);
-			name = CommonsService;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		ACF24A17F8CE88C2696E351D94D50ED5 /* Products */ = {
@@ -161,6 +161,19 @@
 				D21AB2FE9E7DBBD56241B395AA50F342 /* Pods_CommonsService_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC721AF5CEBF01759A084039FA3B1EE /* CommonsService */ = {
+			isa = PBXGroup;
+			children = (
+				BB6DF881C9EB5F825909221485F60CBF /* Favoritos.swift */,
+				6C45A28ECA3D10E359800CC9A6A5A4EE /* FormataNumero.swift */,
+				AD942EE8B741B4358AD4195D47D191F2 /* Moeda.swift */,
+				A69727AAEF563116FC4691BB98638DC8 /* Pod */,
+				2B62EBFE5696D6571DB03B3ECD06C254 /* Support Files */,
+			);
+			name = CommonsService;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C23F57393862024FDBCCCDF4F578234E /* Pods-CommonsService_Example */ = {
@@ -180,16 +193,6 @@
 			path = "Target Support Files/Pods-CommonsService_Example";
 			sourceTree = "<group>";
 		};
-		C7CAA709292C0423498187879D378F4E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3946C1176C651FFC2F339BC1FA4F0982 /* CommonsService.podspec */,
-				2CE229F8D62A5F6515A6AD1B86B8FE3A /* LICENSE */,
-				6D1E82FB1A6C362A48409F2C9E19B8B6 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CD79442193B02785FE8C5239DF15F053 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,7 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EBDA7EF71E4FEA18577074CDA0C98053 /* Development Pods */,
+				EC7163FF2A2190F66A0F5B2B6AD9E4C8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				ACF24A17F8CE88C2696E351D94D50ED5 /* Products */,
 				CD79442193B02785FE8C5239DF15F053 /* Targets Support Files */,
@@ -218,10 +221,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EBDA7EF71E4FEA18577074CDA0C98053 /* Development Pods */ = {
+		EC7163FF2A2190F66A0F5B2B6AD9E4C8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1BF27023EB3D6F6DBFBEF80167ABBF7 /* CommonsService */,
+				BEC721AF5CEBF01759A084039FA3B1EE /* CommonsService */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -229,11 +232,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		09C4286F8CF90A970B52F28D0646C5F5 /* Headers */ = {
+		1A1B7E6E0F7E816C3BBDF5F29A5ED397 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93A51FA6DA707CF7F5EDFF2675C3D0C1 /* CommonsService-umbrella.h in Headers */,
+				DD6489DB1E6D08893DF403A65CD13D99 /* CommonsService-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +271,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				50D655797A2CC9F09A5051594EE2F289 /* PBXTargetDependency */,
+				21C17592F47B1216F23E22FFC9BF88AD /* PBXTargetDependency */,
 			);
 			name = "Pods-CommonsService_Example";
 			productName = "Pods-CommonsService_Example";
@@ -287,7 +290,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				209A7FE7A77ADC0984FB8DAAA0D70548 /* PBXTargetDependency */,
+				6B4016C741D71CA2AD6E61A80F54D2DB /* PBXTargetDependency */,
 			);
 			name = "Pods-CommonsService_Tests";
 			productName = "Pods-CommonsService_Tests";
@@ -296,12 +299,12 @@
 		};
 		308D1CEBC73306F91B3E0C4642B83960 /* CommonsService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EAC23264BE87A38E316B10744A5673C /* Build configuration list for PBXNativeTarget "CommonsService" */;
+			buildConfigurationList = 9DE94E47AC71F6F284223AE7EF76FE19 /* Build configuration list for PBXNativeTarget "CommonsService" */;
 			buildPhases = (
-				09C4286F8CF90A970B52F28D0646C5F5 /* Headers */,
-				629BD0FA32F514698871F469A84A1D0B /* Sources */,
-				9B6D3638BAB7B7C0DD23B800DE4DB2B7 /* Frameworks */,
-				D5F3DAD15A5CB6C244D25740524B8943 /* Resources */,
+				1A1B7E6E0F7E816C3BBDF5F29A5ED397 /* Headers */,
+				99212F96D56151135C87B5158ED02D01 /* Sources */,
+				A4F616F6A4FE97B0421E7DEA5FF4F4D2 /* Frameworks */,
+				03FA5096E41D0694FEBB408BF2358FEC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -342,14 +345,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F8901368722A759D9B357E4EBB4C662 /* Resources */ = {
+		03FA5096E41D0694FEBB408BF2358FEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5F3DAD15A5CB6C244D25740524B8943 /* Resources */ = {
+		3F8901368722A759D9B357E4EBB4C662 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,21 +369,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		629BD0FA32F514698871F469A84A1D0B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				984714D8ED222AD890EA0B46B38EEFBA /* CommonsService-dummy.m in Sources */,
-				986C51345564A78BE351B6A390B2842E /* FormataNumero.swift in Sources */,
-				2AB773C7D6C103303E8DADD067826D3D /* Moeda.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8B5DD99EA9510E79B9D3B681F85A78D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3D67F5C3222604A4C0101DF15F2D8884 /* Pods-CommonsService_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99212F96D56151135C87B5158ED02D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA64E08CFB075E665AE2990822647CA /* CommonsService-dummy.m in Sources */,
+				6057E124329990BD3822C75C33B4AC7E /* Favoritos.swift in Sources */,
+				B9A914DBBD15C430EC276D3BEFFB9DB2 /* FormataNumero.swift in Sources */,
+				E6CD1ED3D76835B5E32B321E2A473E0C /* Moeda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,51 +399,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		209A7FE7A77ADC0984FB8DAAA0D70548 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CommonsService_Example";
-			target = 14CB6A7717451553D721420F8C52BD3E /* Pods-CommonsService_Example */;
-			targetProxy = 5C64AC9F815831F0A3110A1F802CA1A9 /* PBXContainerItemProxy */;
-		};
-		50D655797A2CC9F09A5051594EE2F289 /* PBXTargetDependency */ = {
+		21C17592F47B1216F23E22FFC9BF88AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CommonsService;
 			target = 308D1CEBC73306F91B3E0C4642B83960 /* CommonsService */;
-			targetProxy = 59873949F2B3AC40878AD6C64749C375 /* PBXContainerItemProxy */;
+			targetProxy = 8FDFE40E1CF302942D5CF2FF396F190C /* PBXContainerItemProxy */;
+		};
+		6B4016C741D71CA2AD6E61A80F54D2DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CommonsService_Example";
+			target = 14CB6A7717451553D721420F8C52BD3E /* Pods-CommonsService_Example */;
+			targetProxy = 8CDAE1DE950561439BCBF523E669A496 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04B34DDBEF3E815DA069A1086649A3CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 349D09AE339688F09B164D32646ABAF9 /* CommonsService.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CommonsService/CommonsService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CommonsService/CommonsService-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CommonsService/CommonsService.modulemap";
-				PRODUCT_MODULE_NAME = CommonsService;
-				PRODUCT_NAME = CommonsService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		0A6D27D4DD0F60DF68F83C48867FFF54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9156368ED7757054CD8501C7DC338A38 /* Pods-CommonsService_Tests.release.xcconfig */;
@@ -504,6 +478,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		20746E633707A00B1AE9646D13129F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BC171F724F3F5EA9314D57ED955E2D /* CommonsService.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CommonsService/CommonsService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CommonsService/CommonsService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CommonsService/CommonsService.modulemap";
+				PRODUCT_MODULE_NAME = CommonsService;
+				PRODUCT_NAME = CommonsService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -603,9 +608,9 @@
 			};
 			name = Debug;
 		};
-		7D944A4B5A024AF2AA42F313B14DD5B8 /* Release */ = {
+		69DB289FC93313CF976294F6C184B0C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E92ED5362130E84C0043260543359D08 /* CommonsService.release.xcconfig */;
+			baseConfigurationReference = C66FCC2E08A7DFC66C37342EAE2948CC /* CommonsService.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -628,11 +633,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		AFA3796A74093932B28FA6D904974947 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -750,20 +754,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EAC23264BE87A38E316B10744A5673C /* Build configuration list for PBXNativeTarget "CommonsService" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04B34DDBEF3E815DA069A1086649A3CB /* Debug */,
-				7D944A4B5A024AF2AA42F313B14DD5B8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9827816A7DD17E1C74FAC6062E6AF4EF /* Build configuration list for PBXNativeTarget "Pods-CommonsService_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D05FB0028A11F9AD31AECD96C206452 /* Debug */,
 				0A6D27D4DD0F60DF68F83C48867FFF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DE94E47AC71F6F284223AE7EF76FE19 /* Build configuration list for PBXNativeTarget "CommonsService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DB289FC93313CF976294F6C184B0C4 /* Debug */,
+				20746E633707A00B1AE9646D13129F41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
